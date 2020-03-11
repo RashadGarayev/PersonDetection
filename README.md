@@ -3,6 +3,11 @@
 
 
 ---------------------------------------------------------------------------------------------------------------------------
+### Tested 
+
+```python3 visualize_image.py``` 
+
+![Conv](test/test.png)
 
 ## Usage
 * install image dataset from my Googledrive
