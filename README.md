@@ -10,14 +10,16 @@
 ![Conv](test/Person.png)
 
 ## Usage
-* install image dataset from my Googledrive
-[Image Dataset](https://drive.google.com/open?id=1vLts74OSo7nGaK3gcPB_waBzC-crMTYE) 
-  
+* If you want training
 ```git clone https://github.com/RashadGarayev/PersonDetection``` 
 
 ```cd PersonDetection``` 
 
-
+* install image dataset from my Googledrive
+[Image Dataset](https://drive.google.com/open?id=1vLts74OSo7nGaK3gcPB_waBzC-crMTYE) 
+* add negative and positive folder to  DATAIMAGE/ folder
+* After run 
+  
 ```python3 training_SVM.py```  
 
 * for real-time person detection :
