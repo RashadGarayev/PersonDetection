@@ -1,5 +1,5 @@
 from skimage.feature import hog
-from skimage.io import imread
+#from skimage.io import imread
 import joblib,glob,os,cv2
 
 from sklearn.svm import LinearSVC
