@@ -14,6 +14,7 @@
 [Image Dataset](https://drive.google.com/open?id=1vLts74OSo7nGaK3gcPB_waBzC-crMTYE) 
   
 ```git clone https://github.com/RashadGarayev/PersonDetection``` 
+
 ```cd PersonDetection``` 
 
 
@@ -22,6 +23,7 @@
 * for real-time person detection :
 
 ```python3 visualize_real_time.py```  
+
 -----------------------------------------------------------------------------------------------------------------------
 
  ## The sliding windows detection algorithm
