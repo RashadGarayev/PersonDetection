@@ -28,8 +28,20 @@
 ![Conv](test/hog-vis.png)
 
 
+ ## The sliding windows detection algorithm
+ 
+ In object detection problems, we generally have to find all the possible objects in the image like all the cars in the image, all the pedestrians in the image, all the bikes in the image, etc. To achieve this, we use an algorithm known as Sliding window detection. Let us understand this algorithm.
+ * In this algorithm, we choose a grid cell of a specific size. Let us choose the grid cell of size 2x2.
+ * We pass the above grid cell through the image and convolute the part of the image in the grid cell and predict the output.
+ * Then we slide the grid cell through stride-2 and then convolute the next part of the image.
+ * In this way, we go cover the whole image.
+ * We repeat the same procedure with different grid cells size.
+ 
+
+![Conv](test/sl.png)
 
 
+![Conv](test/sliding.gif)
 
 ## Histogram of oriented gradients
 
