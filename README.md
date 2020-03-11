@@ -14,7 +14,7 @@
 
 ```cd PersonDetection``` 
 
-* If you want training
+### For training
 
 
 
