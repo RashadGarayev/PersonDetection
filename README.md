@@ -6,7 +6,7 @@
 
 ## Usage
 * install image dataset from my Googledrive
-(Source : https://drive.google.com/drive/folders/1vLts74OSo7nGaK3gcPB_waBzC-crMTYE?usp=sharing) 
+[Image Dataset](https://drive.google.com/drive/folders/1vLts74OSo7nGaK3gcPB_waBzC-crMTYE?usp=sharing) 
   
 ```git clone https://github.com/RashadGarayev/PersonDetection``` 
 ```cd PersonDetection``` 
