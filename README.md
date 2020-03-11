@@ -83,4 +83,8 @@ According to (Source : https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05
 ![Conv](test/hog1.gif)
 
 
+### Reference
 
+* https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf
+* http://www.cs.utoronto.ca/~fidler/slides/CSC420/lecture17.pdf
+* https://arxiv.org/pdf/1406.2419.pdf
