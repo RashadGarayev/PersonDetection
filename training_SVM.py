@@ -12,7 +12,7 @@ train_data = []
 train_labels = []
 pos_im_path = 'DATAIMAGE/positive/'
 neg_im_path = 'DATAIMAGE/negative/'
-model_path = 'models/model.dat'
+model_path = 'models/models.dat'
 # Load the positive features
 for filename in glob.glob(os.path.join(pos_im_path,"*.png")):
     fd = cv2.imread(filename,0)
