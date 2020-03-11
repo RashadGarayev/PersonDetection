@@ -7,7 +7,7 @@
 
 ```python3 visualize_image.py``` 
 
-![Conv](test/test.png)
+![Conv](test/Person.png)
 
 ## Usage
 * install image dataset from my Googledrive
