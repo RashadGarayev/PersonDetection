@@ -22,12 +22,12 @@ for im_scaled in pyramid_gaussian(image, downscale = downscale):
     #The list contains detections at the current scale
     if im_scaled.shape[0] < size[1] or im_scaled.shape[1] < size[0]:
         break
-    for (x, y, im_window) in sd.sliding_window(im_scaled, size, step_size):
-        if im_window.shape[0] != size[1] or im_window.shape[1] != size[0]:
+    for (x, y, window) in sd.sliding_window(im_scaled, size, step_size):
+        if window.shape[0] != size[1] or window.shape[1] != size[0]:
             continue
-        im_window = color.rgb2gray(im_window)
+        window = color.rgb2gray(im_window)
             
-        fd=hog(im_window, orientations=9,pixels_per_cell=(8,8),visualize=False,cells_per_block=(3,3))
+        fd=hog(window, orientations=9,pixels_per_cell=(8,8),visualize=False,cells_per_block=(3,3))
         fd = fd.reshape(1, -1)
         pred = model.predict(fd)
         if pred == 1:
