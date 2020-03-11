@@ -22,11 +22,7 @@
 * for real-time person detection :
 
 ```python3 visualize_real_time.py```  
-
-
-
-![Conv](test/hog-vis.png)
-
+-----------------------------------------------------------------------------------------------------------------------
 
  ## The sliding windows detection algorithm
  
@@ -44,6 +40,8 @@
 ![Conv](test/sliding.gif)
 
 ## Histogram of oriented gradients
+
+![Conv](test/hog-vis.png)
 
 Histogram of oriented gradients (HOG) is a feature descriptor used to detect objects in computer vision and image processing. The HOG descriptor technique counts occurrences of gradient orientation in localized portions of an image - detection window, or region of interest (ROI).
 
