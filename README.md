@@ -18,7 +18,7 @@
 ```cd PersonDetection``` 
 
 
-```python3 train_SVM.py```  
+```python3 training_SVM.py```  
 
 * for real-time person detection :
 
