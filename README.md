@@ -15,13 +15,6 @@
 ```cd PersonDetection``` 
 
 ### For training
-
-
-
-* install image dataset from my Googledrive
-[Image Dataset](https://drive.google.com/open?id=1vLts74OSo7nGaK3gcPB_waBzC-crMTYE) 
-* add negative and positive folder to  DATAIMAGE/ folder
-* After run 
   
 ```python3 training_SVM.py```  
 
