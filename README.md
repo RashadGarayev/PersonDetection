@@ -1,4 +1,5 @@
-# PersonDetection
+# ### Person Detection using HOG Feature and SVM Classifier
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -14,7 +15,6 @@
 ```python3 visualize_real_time.py```  
 
 
-### Person Detection using HOG Feature and SVM Classifier
 
 ![Conv](test/hog-vis.png)
 
