@@ -10,10 +10,13 @@
 ![Conv](test/Person.png)
 
 ## Usage
-* If you want training
 ```git clone https://github.com/RashadGarayev/PersonDetection``` 
 
 ```cd PersonDetection``` 
+
+* If you want training
+
+
 
 * install image dataset from my Googledrive
 [Image Dataset](https://drive.google.com/open?id=1vLts74OSo7nGaK3gcPB_waBzC-crMTYE) 
