@@ -38,7 +38,7 @@
  * We repeat the same procedure with different grid cells size.
  
 
-![Conv](test/sl.png)
+![Conv](test/sd.png)
 
 
 ![Conv](test/sliding.gif)
